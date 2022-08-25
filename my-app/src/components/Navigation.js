@@ -1,13 +1,21 @@
 import React from 'react';
 
+const styles = {
+  nav: {
+    backgroundColor: "lightblue",
+  },
+  header: {
+    backgroundColor: "lightblue"
+  }
+};
 
 // Here we are using object destructuring assignment to pluck off our variables from the props object
 // We assign them to their own variable names
 function Navigation({ currentPage, handlePageChange }) {
   return (
-    <header>
+    <header style={styles.header}>
       <h1>Miranda Morton</h1>
-      <ul className="nav nav-tabs">
+      <ul className= "nav nav-tabs" style={styles.nav}>
         <li className="nav-item">
           <a
             href="#about"

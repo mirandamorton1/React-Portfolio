@@ -1,4 +1,6 @@
 import React from 'react';
+import Footer from '../components/Footer'
+
 
 // const About = () => {
 //     return (
@@ -11,19 +13,27 @@ import React from 'react';
 // }
 
 // export default About
+const styles = {
+  about: {
+    backgroundColor: "lightblue",
+    paddingTop: 0,
+  }
+};
 
 export default function About() {
   return (
-    <section className ="container">
-         <div className ="about">
-            <div className="pic">
-              <img className="pic" src={require(`../styles/images/headshot.jpg`)} alt="Miranda"/> 
-            </div>
-       <h1>About Me</h1>
-        <p>
-        I am a full-stack web developer..
-        </p>
-     </div>
-    </section>
+    <><section className="container" style={styles.about}>
+      <div className="about">
+        <div className="pic">
+          <img className="pic" src={require(`../styles/images/headshot.jpg`)} alt="Miranda" />
+        </div>
+        <div className="text">
+          <h1>About Me</h1>
+          <p>
+            I am a full-stack web developer..
+          </p>
+        </div>
+      </div>
+    </section><Footer/></>
   );
 }
