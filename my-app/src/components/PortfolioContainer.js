@@ -4,6 +4,7 @@ import About from '../pages/About';
 import Portfolio from '../pages/Portfolio';
 import Resume from '../pages/Resume';
 import Contact from '../pages/Contact';
+import Footer from '../components/Footer'
 
 export default function PortfolioContainer() {
   const [currentPage, setCurrentPage] = useState('About');
@@ -30,6 +31,7 @@ export default function PortfolioContainer() {
       <div>
       {renderPage()}
       </div>
+      <Footer/>
     </main>
   );
 }

@@ -1,6 +1,6 @@
 import React from 'react';
 import '../styles/Header.css';
-import { PortfolioContainer } from './PortfolioContainer';
+import { Navigation } from '../components/Navigation';
 
 // By importing the Header.css file, it is added to the DOM whenever this component loads
 
@@ -9,22 +9,13 @@ import { PortfolioContainer } from './PortfolioContainer';
 // On a style object, we camelCase all property names, and put all of the values in quotes
 // Non quoted values default to "pixels", e.g. height, margin, padding
 
-const styles = {
-  headerStyle: {
-    background: 'red',
-  },
-  headingStyle: {
-    fontSize: '100px',
-  },
-};
-
 // We use JSX curly braces to evaluate the style object
 
 function Header() {
   return (
-    <><PortfolioContainer /><header style={styles.headerStyle} className="header">
-          <h1 style={styles.headingStyle}>Welcome</h1>
-      </header></>
+    <div>
+      <Navigation/>
+    </div>
   );
 }
 

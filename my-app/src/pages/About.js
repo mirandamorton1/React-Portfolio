@@ -15,7 +15,7 @@ import Footer from '../components/Footer'
 // export default About
 const styles = {
   about: {
-    backgroundColor: "lightblue",
+    backgroundColor: "blue",
     paddingTop: 0,
   }
 };
@@ -29,8 +29,11 @@ export default function About() {
         </div>
         <div className="text">
           <h1>About Me</h1>
-          <p>
-            I am a full-stack web developer..
+          <p className="infoText">
+            I am a web developer with a certficate in Full Stack Web Developement from the University of Central Florida. I am able to apply my masters degree in behavior analysis to build web apps with an intuitive UI - strong communiation skills??? 
+          </p>
+          <p className="infoText">
+            I am a well versed in HTLM, CSS, JavaScript and am able to work 
           </p>
         </div>
       </div>

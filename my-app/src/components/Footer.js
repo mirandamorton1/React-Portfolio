@@ -10,12 +10,12 @@ function Footer() {
                 </a>
             </div>
             <div>
-                <a href="https://github.com/RussTracy" target="_blank" rel="noreferrer">
+                <a href="https://github.com/mirandamorton1" target="_blank" rel="noreferrer">
                     {/* <FontAwesomeIcon icon={["fab", "git-square"]} size="3x" color="#607d8b" /> */}
                 </a>
             </div>
             <div>
-                <a href="https://www.linkedin.com/in/russtracy" target="_blank" rel="noreferrer">
+                <a href="https://www.linkedin.com/in/" target="_blank" rel="noreferrer"> Random text to test
                     {/* <FontAwesomeIcon icon={["fab", "linkedin"]} size="3x" color="#607d8b" /> */}
                 </a>
             </div>
