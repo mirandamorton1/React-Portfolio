@@ -92,6 +92,18 @@ header ul li {
 	padding-bottom: 100px;
 }
 
+.project-bg {
+	height: 200px;
+	width: 350px;
+	border-radius: 10px;
+
+}
+
+/* .project {
+	display: inline-flex;
+	justify-content: space-between;
+} */
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;

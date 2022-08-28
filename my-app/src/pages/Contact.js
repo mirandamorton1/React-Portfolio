@@ -1,4 +1,10 @@
 import React from 'react';
+// import ReactDOM from 'react-dom'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+// import { faCoffee } from '@fortawesome/free-solid-svg-icons'
+
+// const element = <FontAwesomeIcon icon={faCoffee} />
+// ReactDOM.render(element, document.body)
 
 // import { validateEmail } from '../../util/helpers';
 
@@ -33,12 +39,12 @@ export default function Contact() {
         </div>
         <div className="mAll">
         <a href="mailto:miranda.morton1@gmail.com">
-                            {/* <FontAwesomeIcon icon={["fas", "envelope-square"]} size="1x" color="#607d8b" /> */}
+                            <FontAwesomeIcon icon={["fas", "envelope-square"]} size="1x" color="#607d8b" />
                         </a> <a href="miranda.morton1@gmail.com">miranda.morton1@gmail.com</a>
                     </div>
                     <div className="mAll">
                         <div>
-                            {/* <FontAwesomeIcon icon={["fas", "mobile-alt"]} size="1x" color="#607d8b" /> (801)-628-9257 */}
+                            <FontAwesomeIcon icon={["fas", "mobile-alt"]} size="1x" color="#607d8b" /> (760)625-2576
 
                         </div>
         </div>
