@@ -1,5 +1,5 @@
 import React from 'react';
-import Footer from '../components/Footer'
+
 
 
 // const About = () => {
@@ -22,7 +22,7 @@ const styles = {
 
 export default function About() {
   return (
-    <><section className="container" style={styles.about}>
+    <section className="container" style={styles.about}>
       <div className="about">
         <div className="pic">
           <img className="pic" src={require(`../styles/images/headshot.jpg`)} alt="Miranda" />
@@ -37,6 +37,6 @@ export default function About() {
           </p>
         </div>
       </div>
-    </section><Footer/></>
+    </section>
   );
 }

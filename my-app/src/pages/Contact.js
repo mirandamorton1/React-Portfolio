@@ -24,21 +24,26 @@ import React from 'react';
 
 export default function Contact() {
   return (
-    <div>
-      <h1>Contact Me</h1>
-      <p>
-        Integer cursus bibendum sem non pretium. Vestibulum in aliquet sem, quis
-        molestie urna. Aliquam semper ultrices varius. Aliquam faucibus sit amet
-        magna a ultrices. Aenean pellentesque placerat lacus imperdiet
-        efficitur. In felis nisl, luctus non ante euismod, tincidunt bibendum
-        mi. In a molestie nisl, eu sodales diam. Nam tincidunt lacus quis magna
-        posuere, eget tristique dui dapibus. Maecenas fermentum elementum
-        faucibus. Quisque nec metus vestibulum, egestas massa eu, sollicitudin
-        ipsum. Nulla facilisi. Sed ut erat ligula. Nam tincidunt nunc in nibh
-        dictum ullamcorper. Class aptent taciti sociosqu ad litora torquent per
-        conubia nostra, per inceptos himenaeos. Etiam ornare rutrum felis at
-        rhoncus. Etiam vel condimentum magna, quis tempor nulla.
-      </p>
-    </div>
+    <section className="container">
+      <div className="contact">
+        <div className="text">
+          <h1 className="mAll">Contact Me!</h1>
+          <div className="mAll">
+          <img className="mAll" src={require(`../styles/images/headshot.jpg`)} alt="Miranda" />
+        </div>
+        <div className="mAll">
+        <a href="mailto:miranda.morton1@gmail.com">
+                            {/* <FontAwesomeIcon icon={["fas", "envelope-square"]} size="1x" color="#607d8b" /> */}
+                        </a> <a href="miranda.morton1@gmail.com">miranda.morton1@gmail.com</a>
+                    </div>
+                    <div className="mAll">
+                        <div>
+                            {/* <FontAwesomeIcon icon={["fas", "mobile-alt"]} size="1x" color="#607d8b" /> (801)-628-9257 */}
+
+                        </div>
+        </div>
+        </div>
+      </div>
+    </section>
   );
 }
