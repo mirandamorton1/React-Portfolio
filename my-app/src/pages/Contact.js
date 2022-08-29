@@ -1,55 +1,33 @@
 import React from 'react';
 // import ReactDOM from 'react-dom'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-// import { faCoffee } from '@fortawesome/free-solid-svg-icons'
 
-// const element = <FontAwesomeIcon icon={faCoffee} />
-// ReactDOM.render(element, document.body)
+import { FaEnvelope } from 'react-icons/fa';
+import { FaGithub } from 'react-icons/fa';
+import { FaPhone } from 'react-icons/fa';
 
-// import { validateEmail } from '../../util/helpers';
-
-// function Contact() {
-//   const [formState, setFormState] = useState({
-
-//   });
-
-//   const handleSubmit = (e) => {
-
-//   };
-
-//   const handleChange = (e) => {
-
-//   };
-
-//   return (
-
-//   );
-// }
-
-// export default Contact;
 
 export default function Contact() {
   return (
-    <section className="container">
+    <section className="contactcontainer">
       <div className="contact">
         <div className="text">
           <h1 className="mAll">Contact Me!</h1>
-          <div className="mAll">
-          <img className="mAll" src={require(`../styles/images/headshot.jpg`)} alt="Miranda" />
+            <img className="contactpic" src={require(`../styles/images/headshot2.jpg`)} alt="Miranda" />
+          </div>
+          <div className="contacticons">
+            <div>
+            <a href="mailto:miranda.morton1@gmail.com">
+              <FaEnvelope size={'8rem'}  color={'black'}/>
+            </a>
+              <a href="https://github.com/mirandamorton1">
+              <FaGithub size={'8rem'} color={'black'} margin={'10rem'}/>
+            </a>
+            <FaPhone size={'8rem'}/>(760)625-2576
+            </div>
+            
+          </div>
         </div>
-        <div className="mAll">
-        <a href="mailto:miranda.morton1@gmail.com">
-                            <FontAwesomeIcon icon={["fas", "envelope-square"]} size="1x" color="#607d8b" />
-                        </a> <a href="miranda.morton1@gmail.com">miranda.morton1@gmail.com</a>
-                    </div>
-                    <div className="mAll">
-                        <div>
-                            <FontAwesomeIcon icon={["fas", "mobile-alt"]} size="1x" color="#607d8b" /> (760)625-2576
 
-                        </div>
-        </div>
-        </div>
-      </div>
     </section>
   );
 }

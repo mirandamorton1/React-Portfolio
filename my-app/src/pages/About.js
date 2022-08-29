@@ -17,6 +17,10 @@ const styles = {
   about: {
     backgroundColor: "blue",
     paddingTop: 0,
+    borderRadius: 20,
+  },
+  container: {
+    borderRadius: 10,
   }
 };
 
@@ -25,7 +29,7 @@ export default function About() {
     <section className="container" style={styles.about}>
       <div className="about">
         <div className="pic">
-          <img className="pic" src={require(`../styles/images/headshot.jpg`)} alt="Miranda" />
+          <img className="pic" src={require(`../styles/images/headshot2.jpg`)} alt="Miranda" />
         </div>
         <div className="text">
           <h1>About Me</h1>

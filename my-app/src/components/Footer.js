@@ -1,24 +1,24 @@
 import React from 'react';
-// import { FontAwesomeIcon } from 
+
+import { FaEnvelope } from 'react-icons/fa';
+import { FaGithub } from 'react-icons/fa';
+import { FaPhone } from 'react-icons/fa';
 
 function Footer() {
     return (
 <footer id="contact">
+<div className="contacticons">
             <div>
-                <a href="mailto:miranda.morton1@gmail.com">
-                    {/* <FontAwesomeIcon icon={["fas", "envelope-square"]} size="3x" color="#607d8b" /> */}
-                </a>
+            <a href="mailto:miranda.morton1@gmail.com">
+              <FaEnvelope size={'8rem'}  color={'black'}/>
+            </a>
+              <a href="https://github.com/mirandamorton1">
+              <FaGithub size={'8rem'} color={'black'} margin={'10rem'}/>
+            </a>
+            <FaPhone size={'8rem'}/>(760)625-2576
             </div>
-            <div>
-                <a href="https://github.com/mirandamorton1" target="_blank" rel="noreferrer">
-                    {/* <FontAwesomeIcon icon={["fab", "git-square"]} size="3x" color="#607d8b" /> */}
-                </a>
-            </div>
-            <div>
-                <a href="https://www.linkedin.com/in/" target="_blank" rel="noreferrer"> Random text to test
-                    {/* <FontAwesomeIcon icon={["fab", "linkedin"]} size="3x" color="#607d8b" /> */}
-                </a>
-            </div>
+            
+          </div>
         </footer>
     );
   }

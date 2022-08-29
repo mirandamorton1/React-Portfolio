@@ -9,6 +9,7 @@ header {
   padding-top: 0px;
   background: lightblue;
   color: rgb(46, 42, 42);
+  border-radius: 20px;
 }
 
 header h1 {
@@ -96,13 +97,46 @@ header ul li {
 	height: 200px;
 	width: 350px;
 	border-radius: 10px;
-
 }
 
-/* .project {
-	display: inline-flex;
-	justify-content: space-between;
-} */
+.project {
+	display:inline-block;
+	align-items:center;
+	margin-left: 70px;
+	margin-bottom: 30px;
+}
+
+.pic {
+	border-radius: 10px;
+	align-items: left;
+}
+
+.contactpic {
+	border-radius: 8px;
+	height: 300px;
+	width: 275px;
+}
+
+.contact {
+	display:inline-block
+}
+
+.contacticons {
+	margin-left: 500px;
+	align-items: right;
+	justify-content:right;
+	color: black;
+}
+
+button {
+	background-color: #000000;
+	color: #FFFFFF;
+	float: right;
+	padding: 10px;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+}
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',

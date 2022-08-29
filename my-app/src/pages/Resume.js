@@ -1,10 +1,12 @@
 import React from 'react';
+// import { Document } from 'react-pdf';
 
 export default function Resume() {
   return (
     <section className="container">
     <h2 className="mAll">Resume</h2>
-    <div className="mLeftRight">Download my <a href={require(`../assets/images/Resume.pdf`).default}>Resume!</a></div>
+    <div className="mLeftRight">Download my Resume</div>
+    {/* <Document file="resume.pdf" onLoadSuccess={onDocumentLoadSuccess}/> */}
     <div className="resume">
         <div className="res">
             <h3>Front-end Skills</h3>
@@ -21,7 +23,7 @@ export default function Resume() {
                 <li>Testing/Debugging (Jest)</li>
             </ul>
         </div>
-        <div className="res">
+        <div className="mAll">
             <h3>Back-end Skills</h3>
             <ul className="skillsList">
                 <li>API's</li>
@@ -38,7 +40,7 @@ export default function Resume() {
                 <li>REST</li>
             </ul>
         </div>
-        <div className="res">
+        <div className="mAll">
             <h3>Applications</h3>
             <ul className="skillsList">
                 <li>Github</li>
