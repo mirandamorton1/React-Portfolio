@@ -34,6 +34,15 @@ header ul li {
 
 }
 
+.about {
+	display: flex;
+	padding: 30px;
+}
+
+.abouttext {
+	padding: 50px;
+}
+
 .center {
 	text-align: center;
 }
@@ -122,14 +131,20 @@ header ul li {
 }
 
 .contact {
-	display:inline-block
+	display:inline-block;
+	padding: 30px;
 }
 
 .contacticons {
-	margin-left: 500px;
-	align-items: right;
-	justify-content:right;
+	/* margin-left: 500px; */
+	/* align-items: center;
+	justify-content: center; */
 	color: black;
+	padding: 200px;
+}
+
+.contact {
+	display: flex;
 }
 
 .footericons {

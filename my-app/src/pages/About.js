@@ -20,7 +20,7 @@ export default function About() {
         <div className="pic">
           <img className="pic" src={require(`../styles/images/headshot2.jpg`)} alt="Miranda" />
         </div>
-        <div className="text">
+        <div className="abouttext">
           <h1>About Me</h1>
           <p className="infoText">
             I am a web developer with a certficate in Full Stack Web Developement from the University of Central Florida. I am able to apply my masters degree in behavior analysis to build web apps with an intuitive UI. I have been described as highly organized and have strong communication skills. 
