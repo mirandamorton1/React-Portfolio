@@ -2,10 +2,18 @@ import React from 'react';
 // import { Document } from 'react-pdf';
 
 export default function Resume() {
+    const onDownload = () => {
+        const press = document.createElement('a');
+        press.download = `resume.pdf`;
+        press.href = '../../public/resume.pdf';
+        press.click();
+    }
   return (
     <section className="containerresume">
-    <h2 className="mAll">Resume</h2>
-    <div className="mLeftRight"> <img className="resumepic" src={require(`../styles/images/resume.jpg`)} alt="Resume" /> </div>
+    <h2 className="mAll">Download my resume!</h2>
+    <button className="btn" title="Resume" onClick={onDownload}>
+        Download
+    </button>
     <div className="resume">
         <div className="res">
             <h3>Front-end Skills</h3>

@@ -83,7 +83,7 @@ header ul li {
 .resume {
 	align-content: flex-end;
 	align-items: flex-start;
-	justify-content: right;
+	justify-content: center;
 	padding-top: 10px;
 }
 
@@ -139,7 +139,7 @@ header ul li {
 button {
 	background-color:rgb(236, 153, 167);
 	color: #FFFFFF;
-	float: right;
+	/* float: right; */
 	padding: 10px;
 	border-radius: 10px;
 	border-color: white;
