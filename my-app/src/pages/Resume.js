@@ -3,10 +3,9 @@ import React from 'react';
 
 export default function Resume() {
   return (
-    <section className="container">
+    <section className="containerresume">
     <h2 className="mAll">Resume</h2>
-    <div className="mLeftRight">Download my Resume</div>
-    {/* <Document file="resume.pdf" onLoadSuccess={onDocumentLoadSuccess}/> */}
+    <div className="mLeftRight"> <img className="resumepic" src={require(`../styles/images/resume.jpg`)} alt="Resume" /> </div>
     <div className="resume">
         <div className="res">
             <h3>Front-end Skills</h3>

@@ -7,9 +7,9 @@ body {
 header {
   margin: 0px;
   padding-top: 0px;
-  background: lightblue;
-  color: rgb(46, 42, 42);
+  color: white;
   border-radius: 20px;
+  background-color: rgb(236, 153, 167);
 }
 
 header h1 {
@@ -18,7 +18,7 @@ header h1 {
 
 
 header ul  {
-  background: lightblue;
+    background-color: rgb(236, 153, 167);
   display: flex;
   justify-content: flex-end;
   margin-bottom: 0;
@@ -59,7 +59,7 @@ header ul li {
 }
 
 .mLeftRight {
-	margin: 0 20px;
+	margin: 15px;
 }
 
 .mAll {
@@ -70,21 +70,25 @@ header ul li {
 	margin: 20px;
 }
 
-.about, .resume {
+.resume {
 	display: flex;
 	flex-wrap: wrap;
-	align-content: center;
-	align-items: center;
+	align-content: right;
+	align-items: right;
 	justify-content: space-around;
 	margin: auto 0;
-	padding-top: 30px;
+	padding-top: 0px;
 }
 
 .resume {
 	align-content: flex-end;
 	align-items: flex-start;
-	justify-content: center;
+	justify-content: right;
 	padding-top: 10px;
+}
+
+.containerresume {
+	align-items: flex-end;
 }
 
 .container {
@@ -108,7 +112,7 @@ header ul li {
 
 .pic {
 	border-radius: 10px;
-	align-items: left;
+	display:inline-block
 }
 
 .contactpic {
@@ -128,15 +132,23 @@ header ul li {
 	color: black;
 }
 
+.footericons {
+	margin-left:600px;
+}
+
 button {
-	background-color: #000000;
+	background-color:rgb(236, 153, 167);
 	color: #FFFFFF;
 	float: right;
 	padding: 10px;
 	border-radius: 10px;
-	-moz-border-radius: 10px;
-	-webkit-border-radius: 10px;
+	border-color: white;
 }
+
+.content {
+	display: inline-block;
+}
+
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
