@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/React-Portfolio/static/css/main.a8e31885.css",
+    "main.js": "/React-Portfolio/static/js/main.5fdaa2c3.js",
+    "static/js/787.28cb0dcd.chunk.js": "/React-Portfolio/static/js/787.28cb0dcd.chunk.js",
+    "static/media/Backyard Jungle.jpg": "/React-Portfolio/static/media/Backyard Jungle.e760ba5cfad5058d6aed.jpg",
+    "static/media/Date Night.jpg": "/React-Portfolio/static/media/Date Night.369b5820c5607d178cca.jpg",
+    "static/media/headshot2.jpg": "/React-Portfolio/static/media/headshot2.e780d75355d70719327d.jpg",
+    "static/media/Weather Dashboard.jpg": "/React-Portfolio/static/media/Weather Dashboard.9b603aca704936e44418.jpg",
+    "static/media/Day Planner.jpg": "/React-Portfolio/static/media/Day Planner.7b33c15edb5b9172ee21.jpg",
+    "static/media/Interview Quiz.jpg": "/React-Portfolio/static/media/Interview Quiz.e8ba1671a121b0691a06.jpg",
+    "static/media/Note Taker.jpg": "/React-Portfolio/static/media/Note Taker.3892ca2a509f9be6e41c.jpg",
+    "index.html": "/React-Portfolio/index.html",
+    "main.a8e31885.css.map": "/React-Portfolio/static/css/main.a8e31885.css.map",
+    "main.5fdaa2c3.js.map": "/React-Portfolio/static/js/main.5fdaa2c3.js.map",
+    "787.28cb0dcd.chunk.js.map": "/React-Portfolio/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a8e31885.css",
+    "static/js/main.5fdaa2c3.js"
+  ]
+}
