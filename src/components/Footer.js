@@ -17,7 +17,7 @@ function Footer() {
             </a>
             <FaPhone size={'2rem'}/>(760)625-2576
             </div>
-            
+            {/*to do: remove this comment*/}
           </div>
         </footer>
     );
